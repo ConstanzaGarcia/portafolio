@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script');
 
 .body {
   font-family: 'Gothic A1', sans-serif;
@@ -11,28 +11,29 @@ p {
 }
 
 
-h2{
+h2, h3{
+  padding-top: 7%;
   padding-bottom: 3%;
 }
 
-.navbar-light .navbar-brand {
-  color: #fff;
+.navbar-dark{
+  background-color: #212529 !important;
 }
 
 .navbar-brand span {
   color: #fed136;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.1em;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
-.navbar-brand {
+.navbar-brand span.nav-other{
   color: #fff;
-  font-size: 25px;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.1em;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -56,6 +57,11 @@ h2{
   background-color: #fed136;
   color: #fff;
 }
+
+.navbar-dark .navbar-toggler{
+  border-color: transparent;
+}
+
 
 nav {
   -webkit-transition: padding-top .3s, padding-bottom .3s;
@@ -177,6 +183,17 @@ footer {
 }
 
 
+.pd-sections{
+  padding: 7% 0;
+}
+
+.sectionColorYellow {
+  background-color: #fed136;
+}
+
+.img-skills{
+  max-width: 100px;
+}
 
 /* mobile view */
 
@@ -213,6 +230,10 @@ footer {
     font-weight: 200;
     line-height: 23px;
     margin-bottom: 40px;
+  }
+  .card{
+    width: 18rem;
+    margin: 2% 0;
   }
 }
 
