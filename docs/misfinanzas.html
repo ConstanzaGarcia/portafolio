@@ -21,9 +21,11 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand col-lg-3 col-8" href="index.html" onclick="ahome()">
-      <span>Constanza</span> García</a>
+      <span>Constanza</span>
+      <span class="nav-other">García</span>
+    </a>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +36,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">Sobre mi</a>
+          <a class="nav-link" href="aboutme.html">Sobre mí</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" onclick="aProyectos()" data-toggle="dropdown">
@@ -53,170 +55,180 @@
     </div>
   </nav>
 
-  <div class="banner">
+  <header class="banner">
     <div class="container">
       <div class="banner-text">
         <div class="banner-heading">
-          Fitch APP </div>
-        <div class="banner-sub-heading">
-          Una app de Finanzas del Banco el País</div>
-        <!--  <button type="button" class="btn btn-warning text-dark btn-banner">Conoce mi trabajo</button> -->
+          Fintech App
+        </div>
+        <h2>Una app de Finanzas del Banco del País</h2>
       </div>
     </div>
-  </div>
+  </header>
 
-  <section class="sectionWhite">
-    <div class="container-fluid">
-      <div class="row pJustify">
-        <div class="col-md-12">
-          <p style="text-align: justify">Hace seis meses el banco más importante del país lanzo una nueva aplicación al mercado. Esta permite a los usuarios
+  <section class="pd-sections">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>Hace seis meses el banco más importante del país lanzo una nueva aplicación al mercado. Esta permite a los usuarios
             visualizar sus gastos mensuales y ahorrar. Luego de este periodo y no 100 % contentos con el resultado, contactaron
             a nuestro equipo de UX para que los ayudemos a redefinir la dirección y evolución de este producto.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <b style="text-align: justify"> Solución</b>:
-          <p style="text-align: justify">
+        <div class="col-12">
+          <b> Solución</b>:
+          <p>
             Crear el diseño para Android e iterar en el diseño de IOS, mejorando las funcionalidades y la usabilidad de la app. </p>
-          <b> Duración</b>: 10 días.</p>
+          <b> Duración</b>:
+          <span>10 días.</span>
 
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sectionColorYellow ">
-    <div class="container-fluid etapas" id="colorYellow">
+  <section class="sectionColorYellow pd-sections">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h3>Etapas del proyecto</h3>
+        <div class="col-12 col-md-6 offset-md-3">
+          <h2 class="text-center">Etapas del proyecto</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4">
-          <img class="" src="assets/img/problema.png" alt="">
+        <div class="col-6 col-md-3 offset-md-2">
+          <img class="img-skills" src="assets/img/problema.png" alt="">
           <p> Entendimiento del problema</p>
         </div>
-        <div class="col-sm-4">
-          <img class="" src="assets/img/entrevista.png" alt="">
+        <div class="col-6 col-md-3">
+          <img class="img-skills" src="assets/img/entrevista.png" alt="">
           <p>Entrevista con el cliente/usuarios</p>
         </div>
-        <div class="col-sm-4">
-          <img class="" src="assets/img/testimg.png" alt="">
+        <div class="col-6 col-md-3">
+          <img class="img-skills" src="assets/img/testimg.png" alt="">
           <p>Testeo solución existente</p>
         </div>
-
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <img class="" src="assets/img/lluviadeideas.png" alt="">
+        <div class="col-6 col-md-3 offset-md-2">
+          <img class="img-skills" src="assets/img/lluviadeideas.png" alt="">
           <p>Lluvia de ideas</p>
         </div>
-        <div class="col-sm-4">
-          <img class="" src="assets/img/protitotipo.png" alt="">
+        <div class="col-6 col-md-3">
+          <img class="img-skills" src="assets/img/protitotipo.png" alt="">
           <p> Sketch/Prototipo</p>
         </div>
-        <div class="col-sm-4">
-          <img class="" src="assets/img/testimg.png" alt="">
+        <div class="col-6 col-md-3">
+          <img class="img-skills" src="assets/img/testimg.png" alt="">
           <p>Testeo nueva solución</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sectionInvestigacion">
-    <div class="container-fluid">
+  <section class="pd-sections">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>Investigación</h3>
-          <p style="text-align: justify"> Para comenzar averiguamos cuales eran los métodos que utilizaban las personas para ahorrar, además de revisar noticias
-            y estadísticas sobre el uso de las FitchAPP alrededor del mundo. Con estos datos logramos identificar elementos
-            que nos servirán para saber de qué forma abordar el problema presentado por el banco.
+        <div class="col-md-12">
+          <h2 class="text-center">Investigación</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p> Para comenzar averiguamos cuales eran los métodos que utilizaban las personas para ahorrar, además de revisar noticias
+            y estadísticas sobre el uso de las Fintech app alrededor del mundo. Con estos datos logramos identificar elementos
+            que nos servirían para saber de qué forma abordar el problema presentado por el banco.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <img class=" img-fluid " src="assets/imgmisfinanzas/estadisticasamarillas.jpg" alt=" ">
+        <div class="col-12 col-md-6 offset-md-3">
+          <img class="img-fluid mx-auto" src="assets/imgmisfinanzas/estadisticasamarillas.jpg" alt=" ">
         </div>
       </div>
 
+      <div class="col-md-12">
+        <h2 class="text-center">Análisis de Data</h2>
+      </div>
       <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>Análisis de Data</h3>
-          <p style="text-align: justify"> Con esta información logramos identificar el número de personas que entraban al landing y a través de que dispositivos.
+        <div class="col-md-12">
+          <p> Con esta información logramos identificar el número de personas que entraban al landing y a través de que dispositivos.
             El porcentaje de rebote y el número de sesiones que existieron durante los seis meses de su funcionamiento.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-12 col-md-6 offset-md-3">
           <img class=" img-fluid " src="assets/imgmisfinanzas/embudodata.png" alt=" ">
         </div>
       </div>
-
-
       <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>Entrevistas</h3>
-          <p style="text-align: justify">La información anterior nos permitió hacer entrevistas a usuarios de distintos bancos a nivel nacional. Con ello
+        <div class="col-md-12">
+          <h2 class="text-center">Entrevistas</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>La información anterior nos permitió hacer entrevistas a usuarios de distintos bancos a nivel nacional. Con ello
             conocimos como era su relación con el banco y de qué forma interactuaban con la APP. A su vez, realizamos test
             de la aplicación existente y con sus comentarios más la investigación comenzamos a realizar los cambios.
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-12 col-md-6 offset-md-3">
           <img class=" img-fluid" src="assets/imgmisfinanzas/insightentrevista.jpg" alt=" ">
         </div>
       </div>
   </section>
 
   <section class="sectionInvestigacion">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h3>Prototipo Alta Fidelidad</h3>
-          <p style="text-align: justify">
-            Creamos un nuevo prototipo de alta fidelidad habilitado para Android el que testeamos con personas a las que le asignamos
-            misiones para realizar dentro de la aplicación. Con ello logramos concluir cuales eran los problemas que tenía
-            al realizar ciertas acciones por lo que decimos iterar hasta llegar al producto final.
+        <div class="col-12">
+          <h2>Prototipo Alta Fidelidad</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <iframe src="https://marvelapp.com/19aeb4g6?emb=1&iosapp=false&frameless=false" width="390" height="755" allowTransparency="true"
+        <div class="col-12">
+          Creamos un nuevo prototipo de alta fidelidad habilitado para Android el que testeamos con personas a las que le asignamos
+          misiones para realizar dentro de la aplicación. Con ello logramos concluir cuales eran los problemas que tenía
+          al realizar ciertas acciones por lo que decimos iterar hasta llegar al producto final.
+        </div>
+        <div class="col-12 col-md-6 offset-md-4">
+          <iframe src="https://marvelapp.com/19aeb4g6?emb=1&iosapp=false&frameless=false" width="300" height="700" allowTransparency="true"
             frameborder="0"></iframe>
         </div>
       </div>
-
     </div>
   </section>
 
 
   <footer id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="contact">Contacto</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3">
+          <p class="mail text-center">o.conii.o@gmail.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3">
+          <a class="link" href="https://www.linkedin.com/in/constanza-garcia-madrid/">
+            <i class="fab fa-linkedin mr-md-5 mr-3 fa-3x"></i>
+          </a>
+          <a class="link" href="https://www.twitter.com/abretubocaa">
+            <i class="fab fa-twitter-square mr-md-5 mr-3 fa-3x"></i>
+          </a>
 
-    <div class="col-md-12">
-      <div class="mb-5 flex-center">
-        <a class="link" href="https://www.linkedin.com/in/constanza-garcia-madrid/">
-          <i class="fab fa-linkedin mr-md-5 mr-3 fa-2x"></i>
-        </a>
-
-        <a class="link" href="o.conii.o@gmail.com">
-          <i class="fas fa-envelope-square mr-md-5 mr-3 fa-2x"></i>
-        </a>
-
-        <a class="link" href="https://www.twitter.com/abretubocaa">
-          <i class="fab fa-twitter-square mr-md-5 mr-3 fa-2x"></i>
-        </a>
-
-        <a class="link" href="https://medium.com/@ConstanzaGarcia">
-          <i class="fab fa-medium mr-md-5 mr-3 fa-2x"></i>
-        </a>
+          <a class="link" href="https://medium.com/@ConstanzaGarcia">
+            <i class="fab fa-medium mr-md-5 mr-3 fa-3x"></i>
+          </a>
+        </div>
       </div>
     </div>
-
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
