@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+
+.body {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  color: #212529;
+  font-size: 1em;
+}
+
+
+h2{
+  padding-bottom: 3%;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand span {
+  color: #fed136;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 1.1em 1em!important;
+  font-size: 120%;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #ffc82c;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  border-top: 3px solid #fed136;
+}
+
+.dropdown-item:hover {
+  background-color: #fed136;
+  color: #fff;
+}
+
+nav {
+  -webkit-transition: padding-top .3s, padding-bottom .3s;
+  -moz-transition: padding-top .3s, padding-bottom .3s;
+  transition: padding-top .3s, padding-bottom .3s;
+  border: none;
+}
+
+.shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #212529;
+}
+
+.banner{
+  padding: 3% 0;
+  text-align: center;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  background-image: url(../../assets/img/designeropaco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: rgba(0,0,0, 0.7);
+  z-index: -1; 
+  position: absolute;  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+.banner-text {
+  padding: 100px 0 100px 0;
+}
+
+.banner-heading {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: #212529;
+}
+
+.banner-sub-heading {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: #212529;
+}
+
+
+.text-intro {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.bg-light {
+  background-color: #212529!important;
+}
+
+
+
+/*proyectos*/
+
+
+.btn-primary {
+  color: #212529;
+  background-color: #fed136!important;
+  border-color: #fed136!important;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  justify-content: center;
+}
+
+#contenedorProyectos {
+  padding: 7% 0;
+  background-color: #fed136;
+}
+
+.card{
+  width: 20rem;
+  border: 1px solid transparent;
+  min-height: 202px;
+}
+
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  background-color: #212529;
+  padding: 5% 0;
+}
+
+.contact{
+  color: #fff;
+}
+.mail{
+  color: #ffc82c;
+}
+
+.link {
+  color: #fed136;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+
+
+/* mobile view */
+
+@media (max-width:500px) {
+  .navbar-nav {
+    background-color: #212529;
+    border-top: 3px solid #fed136;
+    color: #fff;
+    z-index: 1;
+    margin-top: 5px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em!important;
+    font-size: 100%;
+    font-weight: 500;
+  }
+  .banner-text {
+    padding: 150px 0 150px 0;
+  }
+  .banner-heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .banner-text {
+    padding: 150px 0 150px 0;
+  }
+  .banner-sub-heading {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+}
+

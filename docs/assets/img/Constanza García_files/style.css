@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Roboto');
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    color: #6c6c6f;
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #323233;
+    text-transform: uppercase;
+}
+
+.navbar-brand span {
+    color: #fed136;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em!important;
+    font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    border-top: 3px solid #fed136;
+}
+
+.dropdown-item:hover {
+    background-color: #fed136;
+    color: #fff;
+}
+
+nav {
+    -webkit-transition: padding-top .3s, padding-bottom .3s;
+    -moz-transition: padding-top .3s, padding-bottom .3s;
+    transition: padding-top .3s, padding-bottom .3s;
+    border: none;
+}
+
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #cc2970;
+}
+
+.banner {
+    text-align: left;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(270deg, #cc2970, #c6548b, #eea7c9, #eec8da, #fff);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.banner-text {
+    padding: 200px 0 150px 0;
+}
+
+.banner-heading {
+    font-family: 'Amatic+SC';
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.banner-sub-heading {
+    font-family: 'Roboto', serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.btn-banner {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text-intro {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* mobile view */
+
+@media (max-width:500px) {
+    .navbar-nav {
+        background-color: #c2185b;
+        border-top: 3px solid #fed136;
+        color: #fff;
+        z-index: 1;
+        margin-top: 5px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 0.7em 1em!important;
+        font-size: 100%;
+        font-weight: 500;
+    }
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+    .banner-heading {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .banner-sub-heading {
+        font-size: 10px;
+        font-weight: 200;
+        line-height: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .banner-text {
+        padding: 150px 0 150px 0;
+    }
+    .banner-sub-heading {
+        font-size: 23px;
+        font-weight: 200;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Flor */
+
+html, h1, h2, h3, h4, h5, h6, div, span, p {
+    font-family: 'Roboto' !important;
+}
+
+h1 {
+    color: #4883de;
+    font-weight: 300;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+}
+
+.oval1 {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    animation: spin-oval1 120s infinite linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval1:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(0deg);
+    animation: spin-oval11 120s infinite linear;
+}
+
+.oval2 {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(45deg);
+    animation: spin-oval2 120s infinite linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval2:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(45deg);
+    animation: spin-oval22 120s infinite linear;
+}
+
+.oval3 {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(90deg);
+    animation: spin-oval3 120s infinite linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval3:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(90deg);
+    animation: spin-oval33 120s infinite linear;
+}
+
+.oval4 {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    animation: spin-oval4 120s infinite linear;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval4:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(-45deg);
+    animation: spin-oval44 120s infinite linear;
+}
+
+.oval1, .oval2, .oval3, .oval4 {
+    top: calc(50% - 240px);
+    left: calc(50% - 400px);
+    width: 800px;
+    height: 480px;
+    opacity: .15;
+    position: absolute;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+@keyframes spin-oval1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-oval11 {
+    from {
+        transform: rotate(-0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin-oval2 {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes spin-oval22 {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(-405deg);
+    }
+}
+
+@keyframes spin-oval3 {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes spin-oval33 {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(-450deg);
+    }
+}
+
+@keyframes spin-oval4 {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+@keyframes spin-oval44 {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(-315deg);
+    }
+}
+
+.oval1:after, .oval2:after, .oval3:after, .oval4:after, .oval1s:after, .oval2s:after, .oval3s:after, .oval4s:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5ec1+24,ff4c4f+78 */
+    background: #c6548b, ;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg #c6548b, 24%, #eec8da 78%, #cc2970 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #c6548b 24%, #eec8da 78%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #c6548b 24%, #eec8da 78%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5ec1', endColorstr='#ff4c4f', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+}
+
+.oval1s {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    animation: spin-oval1s 50s infinite linear reverse;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval1s:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(0deg);
+    animation: spin-oval1s1 50s infinite linear reverse;
+}
+
+.oval2s {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(45deg);
+    animation: spin-oval2s 50s infinite linear reverse;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval2s:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(45deg);
+    animation: spin-oval2s2 50s infinite linear reverse;
+}
+
+.oval3s {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(90deg);
+    animation: spin-oval3s 50s infinite linear reverse;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval3s:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(90deg);
+    animation: spin-oval3s3 50s infinite linear reverse;
+}
+
+.oval4s {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    animation: spin-oval4s 50s infinite linear reverse;
+    /* IE 10+, Fx 29+ */
+}
+
+.oval4s:after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    transform: rotate(-45deg);
+    animation: spin-oval4s4 50s infinite linear reverse;
+}
+
+.oval1s, .oval2s, .oval3s, .oval4s {
+    top: calc(50% - 120px);
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 240px;
+    opacity: .30;
+    position: absolute;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 100%/normal Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+@keyframes spin-oval1s {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-oval1s1 {
+    from {
+        transform: rotate(-0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin-oval2s {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes spin-oval2s2 {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(-405deg);
+    }
+}
+
+@keyframes spin-oval3s {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes spin-oval3s3 {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(-450deg);
+    }
+}
+
+@keyframes spin-oval4s {
+    from {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+@keyframes spin-oval4s4 {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(-315deg);
+    }
+}
+
+.white-circle {
+    position: absolute;
+    border: 3px solid white;
+    background: transparent;
+    border-radius: 50%;
+    left: calc(50% - 90px);
+    top: calc(50% - 90px);
+    width: 180px;
+    height: 180px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .oval1, .oval2, .oval3, .oval4 {
+        top: calc(50% - 240px);
+        left: calc(50% - 400px);
+        width: 800px;
+        height: 480px;
+    }
+    .oval1s, .oval2s, .oval3s, .oval4s {
+        top: calc(50% - 120px);
+        left: calc(50% - 200px);
+        width: 400px;
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .oval1, .oval2, .oval3, .oval4 {
+        top: calc(50% - 192px);
+        left: calc(50% - 320px);
+        width: 640px;
+        height: 384px;
+    }
+    .oval1s, .oval2s, .oval3s, .oval4s {
+        top: calc(50% - 96px);
+        left: calc(50% - 160px);
+        width: 320px;
+        height: 192px;
+    }
+    .white-circle {
+        left: calc(50% - 72px);
+        top: calc(50% - 72px);
+        width: 144px;
+        height: 144px;
+    }
+    .logo-text {
+        font-size: 70px;
+        top: calc(50% - 39px);
+        left: calc(50% - 47px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .oval1, .oval2, .oval3, .oval4 {
+        top: calc(50% - 154px);
+        left: calc(50% - 256px);
+        width: 512px;
+        height: 308px;
+    }
+    .oval1s, .oval2s, .oval3s, .oval4s {
+        top: calc(50% - 77px);
+        left: calc(50% - 128px);
+        width: 256px;
+        height: 154px;
+    }
+    .white-circle {
+        left: calc(50% - 58px);
+        top: calc(50% - 58px);
+        width: 115px;
+        height: 115px;
+    }
+    .logo-text {
+        font-size: 55px;
+        top: calc(50% - 33px);
+        left: calc(50% - 37px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .oval1, .oval2, .oval3, .oval4 {
+        top: calc(50% - 123px);
+        left: calc(50% - 205px);
+        width: 410px;
+        height: 246px;
+    }
+    .oval1s, .oval2s, .oval3s, .oval4s {
+        top: calc(50% - 62px);
+        left: calc(50% - 102px);
+        width: 205px;
+        height: 123px;
+    }
+    .white-circle {
+        left: calc(50% - 46px);
+        top: calc(50% - 46px);
+        width: 92px;
+        height: 92px;
+    }
+}
+
+/*snip */
+
+.snip1561 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 8px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    background: #700877;
+    background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+    background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+    background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+}
+
+.snip1561 img, .snip1561:before, .snip1561:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.snip1561 img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+}
+
+.snip1561:before, .snip1561:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.snip1561:before {
+    width: 60px;
+    height: 1px;
+    left: 100%;
+}
+
+.snip1561:after {
+    height: 60px;
+    width: 1px;
+    top: 0%;
+}
+
+.snip1561 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.snip1561:hover img, .snip1561.hover img {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    -webkit-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.snip1561:hover:before, .snip1561.hover:before, .snip1561:hover:after, .snip1561.hover:after {
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+}
+
+#proyectos {
+    padding: 10%;
+}
+/*Pie de pagina con rrss*/
+
+footer {
+    color: #c2185b;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: #c2185b;
+}
+
+a:hover {
+    color: #444;
+}
+
+a:active {
+    color: black;
+}
+
+.copy {
+    font-size: 10px;
+}

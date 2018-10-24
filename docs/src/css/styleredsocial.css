@@ -1,0 +1,37 @@
+.banner {
+  background-image: url(../../assets/imgredsocial/sin-gluten-transparente.png);
+}
+
+.sectionWhite {
+  background-color: #fff;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.sectionColorYellow {
+  border: 3px solid #fed136;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+/*Pie de pagina con rrss*/
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #000;
+}
+
+.link {
+  color: #fed136;
+}
+
+.link:hover {
+  color: #fff;
+}
