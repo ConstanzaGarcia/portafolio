@@ -1,129 +1,14 @@
-.banner {
-  background-image: url(../../assets/img/sublimationPrintopaco.png);
-}
-
-h1 {
-  text-align: center;
-  font-family: "Lato";
-  padding-bottom: 0px;
-  margin-bottom: 30px;
-  margin-top: 80px;
-  font-weight: bold;
-  text-shadow: #fff 0.1em 0.1em 0.4em;
-}
-
-.sectionWhite {
-  background-color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.sectionColor {
-  background-color: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.pJustify {
-  display: flex;
-  justify-content: center;
-}
-
-.sectionColorYellow {
-  border: 3px solid #fed136;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  width: 50%;
-  padding: 10px;
-  margin: auto;
-}
-
-h3 {
-  text-align: center;
-  color: #191716;
-  font-size: xx-large;
-  margin-bottom: 20px;
-}
-
-h4 {
-  text-align: center;
-  color: #191716;
-  margin-bottom: 20px;
-}
-
-h5 {
-  margin-bottom: 27px;
-  margin-top: 20px;
-}
-
-.sintesisTittle {
-  color: black;
-}
-
-.pWhite {
-  color: #fff;
-}
-
-.perfilCliente {
-  justify-content: center;
-  display: flex;
-}
-
-.pPerfil {
-  margin-top: 20px;
-}
-
-.pJustify {
-  display: flex;
-  justify-content: center;
-}
-
-.collapse {
-  display: contents;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #672841;
-  border-color: #672841;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #672841;
-  border-color: #672841;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 0, 156, 0.5);
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #8f2a52;
-  border-color: #8f2a52;
-}
-
-.bJustify {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.imgS {
-  margin-bottom: 50px;
-}
-
-.tittleUser {
-  margin-top: 50px;
-  margin-bottom: 16px;
-}
-
-.imgJustify {
-  display: flex;
-  justify-content: center;
-}
-
-.colJustify {
-  align-items: center;
+.banner::after {
+  content: "";
+  background-image: url(../../assets/img/sublimationPrintopaco.png);;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: rgba(0,0,0, 0.7);
+  z-index: -1; 
+  position: absolute;  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

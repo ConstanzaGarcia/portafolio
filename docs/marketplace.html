@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/style.css">
-  <link rel="stylesheet" href="src/css/stylemisfinanzas.css">
   <link rel="stylesheet" href="src/css/stylemarketplace.css">
 
 
@@ -23,9 +22,11 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand col-lg-3 col-8" href="index.html" onclick="ahome()">
-      <span>Constanza</span> García</a>
+      <span>Constanza</span>
+      <span class="nav-other">García</span>
+    </a>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +37,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">Sobre mi</a>
+          <a class="nav-link" href="aboutme.html">Sobre mí</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" onclick="aProyectos()" data-toggle="dropdown">
@@ -55,28 +56,22 @@
     </div>
   </nav>
 
-
-  <div class="banner">
+  <header class="banner">
     <div class="container">
       <div class="banner-text">
         <div class="banner-heading">
           Market Place
         </div>
-        <div class="banner-sub-heading">
-          Plataforma de Ventas en Línea
-        </div>
-        <!--  <button type="button" class="btn btn-warning text-dark btn-banner">Conoce mi trabajo</button> -->
+        <h2> Plataforma de Ventas en Línea</h2>
       </div>
     </div>
-  </div>
+  </header>
 
-
-
-  <section class="sectionWhite">
-    <div class="container-fluid">
-      <div class="row pJustify">
-        <div class="col-md-12">
-          <p style="text-align: justify">¿De qué forma posicionas un emprendimiento si solo estas vendiendo por Instagram? Ese es el desafío del proyecto
+  <section class="pd-sections">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>¿De qué forma posicionas un emprendimiento si solo estas vendiendo por Instagram? Ese es el desafío del proyecto
             Market Place: Asesorar a uno de los miembros de la Asociación Nacional de Pequeños Comerciantes en la creación
             de un portal desde donde los consumidores adquieran sus productos sin intermediarios. Mala madre store es el
             emprendimiento de Marlenne Peña, quien confecciona monederos, estuches, fundas para laptop, tablet, morrales,
@@ -85,24 +80,25 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <b style="text-align: justify"> Solución</b>:
-          <p style="text-align: justify">
+        <div class="col-12">
+          <b> Solución</b>:
+          <p>
             unificar las plataformas de comunicación entre las personas que desean adquirir los productos y la misma dueña de la marca.
             Por ello, vamos a crear un sitio web para concretar las ventas a través de un sistema de compra online con carro
             de compras el que además tendrá en su interfaz un catálogo de todos los productos que MalaMadre realiza
-            <b> Duración</b>: 3 semanas.</p>
+            <b> Duración</b>:</p>
+          <span>3 semanas.</span>
 
         </div>
       </div>
     </div>
   </section>
 
-  <section class="sectionColorYellow">
-    <div class="container-fluid">
+  <section class="sectionColorYellow pd-sections">
+    <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h3>Etapas del proyecto</h3>
+        <div class="col-12 col-md-6 offset-md-3">
+          <h2 class="text-center">Etapas del proyecto</h2>
         </div>
       </div>
       <div class="row">
@@ -133,12 +129,16 @@
     </div>
   </section>
 
-  <section class="sectionInvestigacion">
-    <div class="container-fluid">
+  <section class="pd-sections">
+    <div class="container">
       <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>Investigación</h3>
-          <p style="text-align: justify"> Conocer el funcionamiento de la asociación era una pieza elemental para saber de qué forma debíamos asesorar a
+        <div class="col-md-12">
+          <h2 class="text-center">Investigación</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>Conocer el funcionamiento de la asociación era una pieza elemental para saber de qué forma debíamos asesorar a
             este emprendedora pero más aún lo era conocer a Marlenne y las razones que la motivaron a abrir este emprendimiento
             por Instagram. ¿Por qué Instagram y no otra red social? ¿Por qué solo ese medio? ¿Quiénes son sus consumidores?
             ¿Por qué prefieren comprar a través de una red social? Estas interrogantes nos ayudaron a resolver el user persona.
@@ -147,66 +147,69 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-12 col-md-6 offset-md-3">
           <img class=" img-fluid " src="assets/imgmarketplace/capturapantallamalamadrepc.PNG" alt=" ">
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>Entrevistas</h3>
-          <p style="text-align: justify"> Para conocer nuestro emprendimiento realizamos una
-            <b>entrevista</b> profundidad con la secretaria de la asociación de Nacional de Pequeños Comerciates. De esta forma,
-            conocimos como funciona su asociación, los requisitos que deben cumplir los emprendedores para ser parte de ella
-            y cuales eran las motivaciones para solicitar la asesoría.
-          </p>
-
-          <p style="text-align: justify"> También, realizamos una
-            <b>entrevista a la emprendora Marlenne</b>. Esta nos contó sobre las motivaciones que tuvo para emprender con Mala
-            Madre Store, en que consiste su trabajo y de que forma lo lleva a cabo día a día. Además, de revelarnos aspectos
-            importantes de su vida personal que van de la mano con lo que ella realiza.
-          </p>
-        </div>
-      </div>
-      <div class="row">
         <div class="col-md-12">
-          <img class=" img-fluid " src="assets/imgmisfinanzas/estadisticasamarillas.jpg" alt=" ">
+          <h2 class="text-center">Entrevistas</h2>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-12">
+            <p> Para conocer nuestro emprendimiento realizamos una
+              <b>entrevista</b> profundidad con la secretaria de la asociación de Nacional de Pequeños Comerciates. De esta
+              forma, conocimos como funciona su asociación, los requisitos que deben cumplir los emprendedores para ser parte
+              de ella y cuales eran las motivaciones para solicitar la asesoría.
+            </p>
+
+            <p style="text-align: justify"> También, realizamos una
+              <b>entrevista a la emprendora Marlenne</b>. Esta nos contó sobre las motivaciones que tuvo para emprender con
+              Mala Madre Store, en que consiste su trabajo y de que forma lo lleva a cabo día a día. Además, de revelarnos
+              aspectos importantes de su vida personal que van de la mano con lo que ella realiza.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img class=" img-fluid " src="assets/imgmisfinanzas/estadisticasamarillas.jpg" alt=" ">
+          </div>
+        </div>
 
 
-      <div class="row">
-        <div class="col-md-12" id="investigacion">
-          <h3>El problema</h3>
-          <p style="text-align: justify">
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col"> Primer Problema </th>
-                  <th scope="col">Segundo Problema</th>
-                  <th scope="col">Tercer Problema</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Solo una red social: Instagram</td>
-                  <td>Hora y día de entrega: Sábado 13:30 hrs. metro Quinta Normal</td>
-                  <td>No existe catálogo de productos</td>
-                </tr>
-              </tbody>
-            </table>
-          </p>
+        <div class="row">
+          <div class="col-md-12" id="investigacion">
+            <h3>El problema</h3>
+            <p style="text-align: justify">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col"> Primer Problema </th>
+                    <th scope="col">Segundo Problema</th>
+                    <th scope="col">Tercer Problema</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Solo una red social: Instagram</td>
+                    <td>Hora y día de entrega: Sábado 13:30 hrs. metro Quinta Normal</td>
+                    <td>No existe catálogo de productos</td>
+                  </tr>
+                </tbody>
+              </table>
+            </p>
 
-          <p style="text-align: justify"> Una vez que logramos entender cual eran sus necesidades y problemas, realizamos un Benchmark para conocer otros
-            emprendimientos. Con toda esta información comenzamos a realizar el prototipos de baja fidelidad que testeamos
-            con usuarios para luego iterar en un prototipo de alta fidelidad.</p>
+            <p style="text-align: justify"> Una vez que logramos entender cual eran sus necesidades y problemas, realizamos un Benchmark para conocer otros
+              emprendimientos. Con toda esta información comenzamos a realizar el prototipos de baja fidelidad que testeamos
+              con usuarios para luego iterar en un prototipo de alta fidelidad.</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <img class=" img-fluid" src="assets/imgmisfinanzas/insightentrevista.jpg" alt=" ">
+        <div class="row">
+          <div class="col-md-12">
+            <img class=" img-fluid" src="assets/imgmisfinanzas/insightentrevista.jpg" alt=" ">
+          </div>
         </div>
-      </div>
   </section>
 
   <section class="sectionInvestigacion">
