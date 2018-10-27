@@ -1,0 +1,15 @@
+.banner::after {
+  content: "";
+  background-image: url(../../assets/imgcalce/calce.PNG);
+  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
